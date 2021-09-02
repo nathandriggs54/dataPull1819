@@ -63,7 +63,7 @@ def createTableAndInsertData(oldTableName, csvLocation, newTableName, cur):
     insertData(csvLocation, newTableName, cur)
 
 
-conn = psycopg2.connect(host="inquire-linux.chpc.utah.edu", dbname="market_scan", user="u0632236",
-                            password="yu0rkumalfcvmivylzbjSkb1nluHlpfm")
+conn = psycopg2.connect(host="inquire-linux.chpc.utah.edu", dbname="market_scan", user="Enter username here",
+                            password="Enter password here")
 cur = conn.cursor()
-createTableAndInsertData('ccaea083', 'ccaeo103.csv', 'sampleTest', cur)
+createTableAndInsertData('ccaea083', 'addresses.csv', 'sampleTest', cur)
