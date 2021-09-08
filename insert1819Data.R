@@ -41,9 +41,9 @@ db <-DBI::dbConnect(
   
   port=5432,
   
-  user = 'u0632236',
+  user = '(Enter Username)',
   
-  password = getPass("yu0rkumalfcvmivylzbjSkb1nluHlpfm"))
+  password = getPass("Enter Password:"))
 
 #Setting variables as shortcuts. All of these may be changed when we get the file names.
 
